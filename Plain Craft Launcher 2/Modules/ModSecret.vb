@@ -7,7 +7,7 @@ Friend Module ModSecret
     '在开源版的注册表与常规版的注册表隔离，以防数据冲突
     Public Const RegFolder As String = "PCLDebug"
     '用于微软登录的 ClientId
-    Public OAuthClientId As String = "29a728b7-4fbc-46d8-9135-98990eae4ed8"
+    Public OAuthClientId As String = ""
     'CurseForge API Key
     Public CurseForgeAPIKey As String = "$2a$10$NNnvPXBGt7qr/GSrVB/bqu5WzEVZ83Ma3MkFnxYLQdE514upjbJPm"
     '用于匿名数据收集的腾讯云日志服务上报 URL，形如 https://{region}.cls.tencentcs.com/track?topic_id={topic_id}
